@@ -11,7 +11,7 @@ main = do
         then print $ areaTriangulo x y z
         else putStrLn "-"
 
-areaTriangulo :: Int -> Int -> Int -> Double --3 inputs e 1 output
+areaTriangulo :: Int -> Int -> Int -> Double --3 inputs inteiros e 1 output double
 areaTriangulo x y z = sqrt (p * (p - a) * (p - b) * (p - c)) --sqrt apenas aceita double
   where
     a = fromIntegral x --Tranforma em double
