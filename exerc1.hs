@@ -1,3 +1,7 @@
+--Exercício pedido pela monitora para receber 3 inteiros positivos(não foi feita verificação de sinal)
+--Verificar se eles podem formar um triângulo e caso o faça é pedida
+--o cálculo da área dele. Foi utilizado >= na condição do if à demanda do exercício
+
 main :: IO ()
 main = do
     x <- readLn :: IO Int
